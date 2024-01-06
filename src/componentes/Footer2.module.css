@@ -1,0 +1,25 @@
+.Footer2 {
+    border-top: 1px solid #DADCE0;
+    background-color: #F2F2F2;
+    display: flex;
+    color: #707070;
+    font-size: 15px;
+    justify-content: space-between;
+    padding: 16px 30px;
+}
+
+.Footer2 ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+.Footer2 li {
+    cursor: pointer;
+}
+
+.Footer2 li:hover {
+    color: #000;
+}

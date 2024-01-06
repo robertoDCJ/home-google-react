@@ -1,0 +1,14 @@
+.Checkup {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.Checkup p {
+    color: #1A0DBD;
+    cursor: pointer;
+}
+
+.Checkup p:hover {
+    text-decoration: underline;
+}

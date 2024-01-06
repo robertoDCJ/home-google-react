@@ -1,0 +1,41 @@
+.Seach {
+    position: relative;
+    border: 1px solid #dfe1e5;
+    width: auto;
+    max-width: 582px;
+    height: 44px;
+    margin: 0 auto;
+    border-radius: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 8px 0 14px;
+    gap: 11px;
+    margin-bottom: 30px;
+}
+
+.Seach:hover {
+    box-shadow: 0 1px 6px rgba(32,33,36,.28);
+}
+
+.Seach img {
+    cursor: pointer;
+}
+
+.Lupa {
+    display: flex;
+    align-items: center;
+    margin-top: 0px;
+}
+
+.Seach input {
+    flex: 1;
+    border: none;
+    font-size: 18px;
+}
+
+.Seach input:focus,
+.Seach input:active {
+    border: none;
+    outline: none;
+}
